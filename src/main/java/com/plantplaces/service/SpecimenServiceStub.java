@@ -10,7 +10,10 @@ public class SpecimenServiceStub implements ISpecimenService {
 	@Override
 	public SpecimenDTO fetchByID(int id) {
 		SpecimenDTO specimenDTO = new SpecimenDTO();
-		specimenDTO.setSpecimenID(id);
+		specimenDTO.setSpecimenID(43);
+		specimenDTO.setLatitudes("39.74");
+		specimenDTO.setLongitudes("-84.51");
+		specimenDTO.setDescription("A beautiful Eastern Redbud.");
 		return specimenDTO;
 	}
 	
