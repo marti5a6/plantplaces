@@ -1,0 +1,31 @@
+*, html {
+	background-color: #FAFAEB;
+}
+
+body {
+	background-color: #FAFAEB;
+	margin-top: 50px;
+	padding-left: 10%;
+	padding-right: 10%
+}
+
+#jumbo {
+	display: table;
+	margin: auto;
+}
+
+#title-text {
+	text-align: center;
+    border: 2px solid black;
+	border-radius: 15px;
+	padding: 25px;
+}
+
+#logo {
+	height: 75px;
+	margin: 20px;
+}
+
+#break {
+	height: 20px;
+}
